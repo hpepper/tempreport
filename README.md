@@ -8,10 +8,12 @@ login in as pi on Raspberry PI
 git clone https://github.com/hpepper/tempreport.git
 
 ## Configuration
-You have to create the file etc/graphite_host_addr.dat
+You have to create the file 
+. vi tempreport/etc/graphite_host_addr.dat
 And write the ip or hostname of the graphite server, you want to send the data to
 
-You have to create the file etc/adjust.dat
+You have to create the file 
+. vi tempreport/etc/adjust.dat
 The first value in 'adjust.dat' is the temperature adjustment, the second is humidity.
 
 
